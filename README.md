@@ -19,9 +19,11 @@ All in all, a PikaPods deployment felt like an ideal balance of cost, convenienc
 The process of deploying a fully-functional Ghost website and newsletter on PikaPods was quite straightforward. It involved no coding, though there were numerous configuration steps spread across multiple tools and platforms. Individual parts of the process are well documented in various places online, but I thought it would be worth documenting everything in a single tutorial.
 
 ### Step 1: Deploy an instance of Ghost on PikaPods
-Account deployment and account creation on PikaPods is very simple. New users are given a $5 balance, which is enough to try and test a Ghost deployment for about two months. Only after that time passes is credit card payment information required.
+Account deployment and account creation on PikaPods is very simple. New users are given a $5 balance, which is enough to test a Ghost deployment for about two months. Only after that time passes is credit card payment information required.
 
 1. Visit https://www.pikapods.com/register and enter your first name, email address, and a secure password. Submit the form and click the confirmation link in the email that arrives.
+
+<img alt="Register a user on PikaPods" src="https://github.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/blob/main/images/t1.png" width="60%" align="center" />
 
 2. Log in to PikaPods with the email and password you just registered.
 
