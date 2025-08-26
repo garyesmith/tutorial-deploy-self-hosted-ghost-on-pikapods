@@ -28,27 +28,27 @@ The process I used to deploy a fully-functional Ghost website and newsletter on 
    
 New PikaPods users are given a $5 balance, which is enough test out a minimal Ghost deployment for about two months. Only after that time passes is credit card payment information required if you wish to keep the Pod running.
 
-**1.1** Visit https://www.pikapods.com/register and enter your first name, email address, and a secure password. Keep a personal record of this information somewhere safe, such as your password manager. Submit the form, then click the confirmation link in the email that arrives. 
+**1.1** Visit https://www.pikapods.com/register and enter your *First Name*, *Email*, and a secure *Password*. Keep a personal record of these credentials somewhere safe, such as your password manager. Submit the form, then click the confirmation link in the email that arrives. 
 
 <img alt="Register a user on PikaPods" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t1.png" width="75%" />
 
-**1.2** Visit https://www.pikapods.com/login and log in using the email address and password you just registered.
+**1.2** Visit https://www.pikapods.com/login and log in using the email address and password you registered above.
 
 <img alt="Log in to PikaPods" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t2.png" width="75% " />
 
-**1.3** Click the *Add Pod* button. Under *Choose App* choose *Ghost*. Under *Pod Name* type a short description of your Pod. Then choose a Pod region of *EU* or *US* depending on the expected geographic location of your blog visitors (or your personal preferences). 
+**1.3** Click the *Add Pod* button. Under *Choose App* select *Ghost*. Under *Pod Name* type a short description of your Pod. Then choose a Pod region of *EU* or *US* depending on the expected geographic location of your blog visitors. 
 
 <img alt="Add a Pod" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t3.png" width="75%" />
 
-**1.4** Click on *Resources* in the left menu, and review the default values for *CPU Cores*, *Memory*, and *Storage*, and also confirm the *Monthly Cost*. You can always change these settings in the future if your Pod requires more resources. 
+**1.4** Click on *Resources* in the left menu, and review the default values for *CPU Cores*, *Memory*, and *Storage*. Also take a moment to note the *Monthly Cost*. You can always change these settings in the future if your Pod requires more resources. 
 
 <img alt="Check Pod resources" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t4.png" width="75%" />
 
-**1.5** Click the *Add Pod* button at the lower right to create your Ghost Pod. After a few moments, the control panel for your Pod will appear. This box summarizes information about your Pod, and provides access to numerous configuration options under the gear icon and the More button. We will make use of some of those configurations later in this tutorial.
+**1.5** Click the *Add Pod* button at the lower right to create your Ghost Pod. After a few moments, the control panel for your Pod will appear. This box summarizes information about your Pod, and provides numerous configuration options under the gear icon and the *More* button. We will make use of some of those configurations later in this tutorial.
 
 <img alt="Pod control panel" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t5.png" width="75%" />
 
-**1.6** Click on the green link to the right of *Domain* to open your new Ghost blog in a separate browser tab. It's alive! Not bad for a few minutes of effort. (You will notice that, for now, the blog lives on a nonsensical subdomain of *pikapod.net*, in my case, *hypnotic-kestrel.pikapod.net*. Later in this tutorial, we will switch this to a personalized domain.)
+**1.6** Click on the green link to the right of *Domain* to open your new Ghost blog in a separate browser tab. It's alive! Not bad for a few minutes of effort. (You will notice that, for now, the blog lives on a nonsensical subdomain, in my case, *hypnotic-kestrel.pikapod.net*. Later in this tutorial, we will switch this to a personalized domain.)
 
 <img alt="Viewing the Ghost blog" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t6.png" width="60%" border="1" />
 
@@ -56,13 +56,13 @@ New PikaPods users are given a $5 balance, which is enough test out a minimal Gh
 
 <img alt="Link to finalize Ghost setup" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t7.png" width="70%" />
      
-**1.8** This URL, which you can reach any time by simply adding */ghost* to the end of your blog's domain, is where the *Ghost Admin* tools for your blog will live. But first you'll need to create your Ghost account. To do that, enter your *Site title*, your *Full name*, your *Email address*, along with a secure password. Your site's title and the admin user details can be changed later, so there's no need to agonize too much here. But make sure once again to keep a personal record of this information somewhere safe, such as your password manager. Then click the *Create account & start publishing* button.
+**1.8** This URL, which you can reach any time by simply adding */ghost* to the end of your blog's domain, is where the *Ghost Admin* tools for your blog will live. But first you'll need to create your Ghost account. To do that, enter your *Site title*, your *Full name*, your *Email address*, and a secure password. All these details can be changed later, so there's no need to agonize too much here. But make sure once again to keep a personal record of these credentials somewhere safe, such as your password manager. Then click the *Create account & start publishing* button.
 
 <img alt="Link to finalize Ghost setup" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t8.png" width="75%" />
 
-**1.9** Once you are logged in, you might want to poke around to familiarize yourself with the Ghost Admin interface. Later in the tutorial I will describe steps for installing and styling a theme, and migrating posts from another platform. For everything else, extensive documentation about the Ghost editor is already available in the [Ghost Manual](https://ghost.org/help/using-the-editor/). 
+**1.9** Once you are logged in, you might want to poke around to familiarize yourself with the Ghost Admin interface. Later in this tutorial I will touch on steps for installing and styling a theme, and for migrating posts and subscribers from another platform. For everything else, extensive documentation about the Ghost editor is already available in the [Ghost Manual](https://ghost.org/help/using-the-editor/). 
 
-<img alt="Ghost Admin default view" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t9.png" width="50%" />
+<img alt="Ghost Admin default view" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t9.png" width="60%" />
 
 
 &nbsp;
