@@ -60,7 +60,7 @@ New PikaPods users are given a $5 balance, which is enough test out a minimal Gh
 
 <img alt="Link to finalize Ghost setup" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t8.png" width="75%" />
 
-**1.9** Once you are logged in, you might want to poke around to familiarize yourself with the Ghost Admin interface. Later in the tutorial I will describe steps to activate and style a theme, and to optionally import posts from another site. But extensive documentation about the Ghost editor is available in the [Ghost Manual](https://ghost.org/help/using-the-editor/) and I won't try to replicate it here. 
+**1.9** Once you are logged in, you might want to poke around to familiarize yourself with the Ghost Admin interface. Later in the tutorial I will describe steps for installing and styling a theme, and migrating posts from another platform. For everything else, extensive documentation about the Ghost editor is already available in the [Ghost Manual](https://ghost.org/help/using-the-editor/). 
 
 <img alt="Ghost Admin default view" src="https://raw.githubusercontent.com/garyesmith/tutorial-deploy-self-hosted-ghost-on-pikapods/refs/heads/main/images/t9.png" width="50%" />
 
